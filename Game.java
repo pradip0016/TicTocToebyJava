@@ -27,5 +27,17 @@ public class Game {
 		}
 		return PlayerMark;
 	}
+	
+	/* UC3 Show Board Layout */
+	public void showBoard() {
+		System.out.print("\n---------------");
+		System.out.print("\n " + board[1] + " | " + board[2] + " | " + board[3] + " |");
+		System.out.print("\n--------------");
+		System.out.print("\n " + board[4] + " | " + board[5] + " | " + board[6] + " |");
+		System.out.print("\n---------------");
+		System.out.print("\n " + board[7] + " | " + board[8] + " | " + board[9] + " |");
+		System.out.print("\n---------------");
+		System.out.println("\n");
+	}
 
 }
