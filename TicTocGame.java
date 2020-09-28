@@ -8,6 +8,7 @@ public class TicTocGame {
 		Game g = new Game();
 		g.createBoard();
 		g.showBoard();
+		g.movePosition();
 	}
 
 }

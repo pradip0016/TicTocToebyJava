@@ -39,5 +39,19 @@ public class Game {
 		System.out.print("\n---------------");
 		System.out.println("\n");
 	}
-
+int row;
+	public void movePosition() {
+		while (true) {
+			if (row < 0 || row > 9) {
+				System.out.println("Your row and col out of Board");
+			} else if (board[row] != ' ') {
+				System.out.println("Someone Already Used that position");
+			} else {
+				char value = determineInput();
+				board[row] = value;
+				showBoard();
+				
+			}
+	  }
+}
 }
